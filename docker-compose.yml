@@ -7,7 +7,7 @@ version: "3.5"
 
 networks:
   default:
-    attachable: "true"
+    attachable: true
     name: "${NEKO_ROOMS_TRAEFIK_NETWORK}"
 
 services:
